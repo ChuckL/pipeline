@@ -45,4 +45,11 @@ group :development do
 
   # Generate random testing data
   gem 'faker'
+
+  # Watch filesystem and execute tasks when files change
+  gem 'guard'
+  # Guard plugin for rubocop, automatically run cops on save
+  gem 'guard-rubocop'
+  # Guard plugin for rspec, automatically run specs on save
+  gem 'guard-rspec'
 end
