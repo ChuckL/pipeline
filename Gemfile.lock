@@ -219,6 +219,7 @@ DEPENDENCIES
   jquery-rails
   pg
   rails (= 4.2.4)
+  rake
   rspec-rails
   rubocop
   sass-rails (~> 5.0)

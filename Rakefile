@@ -4,3 +4,8 @@
 require File.expand_path('../config/application', __FILE__)
 
 Rails.application.load_tasks
+
+# Clear default rake task set by Rails4
+Rake::Task['default'].clear
+
+task default: [:ci]
