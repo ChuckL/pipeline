@@ -33,4 +33,16 @@ group :development do
 
   # Perform static analysis with Rubocop
   gem 'rubocop', require: false
+
+  # Use rspec as the test framework
+  gem 'rspec-rails'
+
+  # Use factories instead of fixtures for testing
+  gem 'factory_girl_rails'
+
+  # Powerful assertions for testing
+  gem 'shoulda-matchers'
+
+  # Generate random testing data
+  gem 'faker'
 end
