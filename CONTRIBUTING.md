@@ -11,16 +11,16 @@ Want to go with the flow? Follow the guidelines below to contribute to the proje
 
 ## Submitting Issues
 
-* If you have read the guidelines below, submit an issue at https://github.com/new-xkit/pipeline/issues
+* If you want to report an issue, first please read the guidelines below, then submit an issue at https://github.com/new-xkit/pipeline/issues.
 * Include screenshots where possible, as well as exact steps to reproduce the bug
 
 ## Branching Strategy
 
 * The `production` branch always represents code which is user-facing -- i.e. the most recently deployed production code.
 * The `master` branch is the central hub for all development work.
-* `release-candidate` branches (formatted e.g. `rc-1.1.0`) are branched from master in preparation for a production deployment; they serve as pre-production snapshots suitable for final bugfixes and release.
-** When a `release-candidate` branch receives final approval, it is merged into both `master` and `production` and then deleted.
 * `feature` branches are branched from `master` when a developer begins work on a feature. All work for that feature should be isolated to that branch; it is then submitted as a pull request back to `master` when it is ready for review and merging.
+* `release-candidate` branches (formatted e.g. `rc-1.1.0`) are branched from master in preparation for a production deployment; they serve as pre-production snapshots suitable for final bugfixes and release.
+  * When a `release-candidate` branch receives final approval, it is merged into both `master` and `production` and then deleted.
 
 ## Pull Requests
 
@@ -35,3 +35,6 @@ Want to go with the flow? Follow the guidelines below to contribute to the proje
 * Use the present tense ("Add feature" not "Added feature")
 * Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
 * Limit the first line to 72 characters or less
+  * This serves as a "subject line" for the commit and should summarize the commit enough to be understandable at a glance.
+  * Further information should go after a blank space in the commit's "body".
+* Focus on explaining what the commit accomplishes and why the change was made, not the specific mechanics of how it was accomplished (as the "how" can be divined from the code diff).
