@@ -28,7 +28,7 @@ Want to go with the flow? Follow the guidelines below to contribute to the proje
 * Generate [RDoc](http://guides.rubyonrails.org/api_documentation_guidelines.html) documentation as part of your pull request, where applicable
 * Include [RSpec tests](http://rspec.info/) as part of your pull request, where applicable
 * Reference issue numbers for closure in PR description when submitting a pull request that resolves an issue
-** See https://help.github.com/articles/closing-issues-via-commit-messages/ (these keywords also work in PR descriptions)
+  * See https://help.github.com/articles/closing-issues-via-commit-messages/ (these keywords also work in PR descriptions)
 
 ## Git Commit Messages
 
